@@ -1,0 +1,29 @@
+ /*<style>.hi{
+            color: rgb(174, 17, 214);
+        }
+        #order{
+            font-size:25px;
+        }
+        .parent p
+        {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            letter: spacing 5px;
+            text-transform: uppercase;
+            
+            text-align: left;
+            
+        }
+         p,h1{
+            background-color: rgb(232, 226, 241);
+        }
+            
+p:hover{
+    background-color: rgb(33, 134, 197);
+}*/-->
+<style>
+    .name{
+        border: 4px solid chocolate;
+        padding: 4px;
+    }
+</style>
+    
