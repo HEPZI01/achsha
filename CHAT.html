@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      font-size: 16px;
+    }
+
+    .hero {
+      background-color: #1f2937;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text button {
+      background-color: #3882f6;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .hero-image {
+      background-color: gray;
+      width: 45%;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+
+    .info-section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .info-section h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .info-cards {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 150px;
+      text-align: center;
+    }
+
+    .card-box {
+      border: 3px solid #3882f6;
+      border-radius: 10px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+
+    .quote-section {
+      background-color: #e5e7eb;
+      padding: 60px;
+      font-style: italic;
+      font-size: 20px;
+    }
+
+    .quote-section p {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .quote-author {
+      text-align: right;
+      font-weight: bold;
+      margin-top: 20px;
+      font-style: normal;
+    }
+
+    .cta-section {
+      background-color: #3882f6;
+      color: white;
+      margin: 60px auto;
+      padding: 40px;
+      border-radius: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cta-text h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .cta-section button {
+      background-color: white;
+      color: #3882f6;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Header Logo</div>
+    <div class="nav-links">
+      <div>header link one</div>
+      <div>header link two</div>
+      <div>header link three</div>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h1>This website is awesome</h1>
+      <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+      <button>Sign up</button>
+    </div>
+    <div class="hero-image">
+      this is a placeholder for an image
+    </div>
+  </div>
+
+  <div class="info-section">
+    <h2>Some random information.</h2>
+    <div class="info-cards">
+      <div class="card">
+        <div class="card-box"></div>
+        <div>this is some subtext under an illustration or image</div>
+      </div>
+      <div class="card">
+        <div class="card-box"></div>
+        <div>this is some subtext under an illustration or image</div>
+      </div>
+      <div class="card">
+        <div class="card-box"></div>
+        <div>this is some subtext under an illustration or image</div>
+      </div>
+      <div class="card">
+        <div class="card-box"></div>
+        <div>this is some subtext under an illustration or image</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="quote-section">
+    <p>
+      This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+    </p>
+    <div class="quote-author">-Thor, God of Thunder</div>
+  </div>
+
+  <div class="cta-section">
+    <div class="cta-text">
+      <h3>Call to action! It's time!</h3>
+      <p>Sign up for our product by clicking that button right over there!</p>
+    </div>
+    <button>Sign up</button>
+  </div>
+
+  <footer>
+    Copyright © The Odin Project 2021
+  </footer>
+
+</body>
+</html>
